@@ -1,0 +1,38 @@
+/* main.css */
+
+/* Container */
+.container {
+    display: flex;
+  }
+  
+  /* Content */
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  /* LogoutButton */
+  .logout-button {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* MiddleBox */
+  .middle-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }

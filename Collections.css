@@ -1,0 +1,36 @@
+/* Collections.css */
+
+.imageList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
+  .artContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text within artContainer */
+  }
+  
+  .newImg {
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+  }
+  
+  .artDetails {
+    margin-top: 10px;
+  }
+  
+  .artTitle {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .artDescription {
+    color: #666;
+    font-size: 1.5em;
+  }
+  
